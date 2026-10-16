@@ -1,4 +1,4 @@
-**Class**
+# **Class**
 
 ```java
 class Name {
@@ -6,7 +6,9 @@ class Name {
 }
 ```
 
-**Method**  
+# **Method**
+
+  
 return\_type can be: **void, int, double, boolean, char, float, long, short, byte, String, User, List, int\[\]**
 
 ```java

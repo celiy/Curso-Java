@@ -1,0 +1,9 @@
+A java Main function (main(String[] args)) has args, args are the arguments passed to the running command
+
+    javac Args.java
+    java Args 1 hello 2.2
+
+    output:
+        1
+        hello
+        2.2
