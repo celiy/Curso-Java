@@ -1,0 +1,7 @@
+Navigate to the Java file you want to compile (Welcome.java):
+
+    javac Welcome.java
+
+Run:
+
+    Java Welcome
