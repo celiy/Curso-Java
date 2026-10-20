@@ -1,0 +1,7 @@
+Navigate to the Java file you want to compile (CreatingAndCompiling.Welcome.java):
+
+    javac CreatingAndCompiling.Welcome.java
+
+Run:
+
+    Java CreatingAndCompiling.Welcome
