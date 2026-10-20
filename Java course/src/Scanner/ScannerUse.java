@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class ScannerUse {
     public static void main(String[] args) {
-        
-    }
-
-    public void scannerTypes() {
         Scanner input = new Scanner(System.in);
 
         input.next(); // Read a string
