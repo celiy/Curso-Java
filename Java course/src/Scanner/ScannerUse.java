@@ -16,5 +16,7 @@ public class ScannerUse {
         input.nextLong(); // Long
         input.nextFloat(); // Float
         input.nextBoolean(); // Boolean
+
+        String valueFromInput = input.nextLine();
     }
 }
