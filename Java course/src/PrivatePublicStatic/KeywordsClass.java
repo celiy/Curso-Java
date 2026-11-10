@@ -1,6 +1,6 @@
-package MethodKeywords;
+package PrivatePublicStatic;
 
-public class KeywordsHerstal {
+public class KeywordsClass {
     public static void main(String[] args) {
         // WORKS: private members are accessible inside their own class
         sayHiPrivate();
@@ -9,7 +9,7 @@ public class KeywordsHerstal {
         // sayHiInstance();
 
         // WORKS: create an object, then call the instance method
-        new KeywordsHerstal().sayHiInstance();
+        new KeywordsClass().sayHiInstance();
     }
 
     // 'private': can only be accessed inside MethodKeywords.KeywordsHerstal

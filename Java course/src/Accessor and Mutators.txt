@@ -1,0 +1,8 @@
+Accessors and Mutators
+
+Accessor (getter): a public method that returns the value of a private field.
+It lets other code read the value without accessing the field directly.
+
+Mutator (setter): a public method that changes the value of a private field.
+It lets other code change the value through a controlled method, which can
+check or validate the new value before storing it.

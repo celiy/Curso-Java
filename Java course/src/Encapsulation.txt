@@ -1,0 +1,5 @@
+Encapsulation
+
+Encapsulation means hiding an object's data (fields) and exposing it only through methods.
+Fields are declared private, so code outside the class cannot read or change them directly.
+The class decides how its data can be read and changed, which keeps the object in a valid state.

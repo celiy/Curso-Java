@@ -1,0 +1,33 @@
+Java versions (LTS): 8, 11, 17, 21, 25
+
+Java 8 (March 2014)
+- Lambdas, Streams API, default methods, Optional, java.time.
+- Use case: legacy and enterprise systems that still run on it; huge amount of existing code and libraries.
+- Why someone uses it: it is already in production and migrating is costly.
+
+Java 11 (September 2018)
+- First LTS after Java 8. Adds var, the standard HTTP Client, new String methods (isBlank, lines, strip, repeat), and running single-file source code directly with "java File.java".
+- Use case: common upgrade step from Java 8, with wide library support.
+- Why someone uses it: a stable, conservative target when moving off Java 8.
+
+Java 17 (September 2021)
+- LTS. Adds records, sealed classes, text blocks, pattern matching for instanceof, and switch expressions.
+- Use case: the usual default for new projects and frameworks (for example, Spring Boot 3 requires Java 17 or later).
+- Why someone uses it: modern syntax with a mature ecosystem.
+
+Java 21 (September 2023)
+- LTS. Adds virtual threads (lightweight threads for high concurrency), pattern matching for switch, record patterns, and sequenced collections.
+- Use case: servers and services that handle many concurrent requests, such as microservices.
+- Why someone uses it: much simpler concurrent code without reactive frameworks.
+
+Java 25 (September 2025)
+- Latest LTS. Finalizes flexible constructor bodies, compact source files and instance main methods (simpler programs for beginners), module import declarations, and Scoped Values. Structured Concurrency is still a preview. Drops the 32-bit x86 port.
+- Use case: new projects that want the latest LTS and the most recent language improvements.
+- Why someone uses it: the newest long-term support release, with support planned into the 2030s.
+
+Differences at a glance
+- Java 8 -> 11: library and tooling updates; the first step off Java 8.
+- Java 11 -> 17: a large jump in language syntax (records, sealed classes, text blocks, pattern matching).
+- Java 17 -> 21: concurrency (virtual threads) and more pattern matching.
+- Java 21 -> 25: simpler program structure for beginners and language cleanup; new features are still being finalized.
+- All of them are LTS releases, so each gets long-term updates from vendors. Non-LTS releases (such as 22, 23, 24) get updates for only about six months.

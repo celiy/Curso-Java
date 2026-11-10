@@ -1,0 +1,16 @@
+Immutable classes: what is happening in UseC1AndC2
+
+C1 is meant to be immutable: it has no setters, so it looks like its state can't change.
+But C1 holds a reference to a C2 object, and getC2() returns that same reference, not a copy.
+
+In UseC1AndC2.main():
+1. c1 is created with a C2 whose x is 1.
+2. c2 = c1.getC2() gives the caller the same C2 object that lives inside c1.
+3. c2.setX(3) changes the x of that shared C2 object.
+
+c1 itself never changed, but its internal state did: c1.getC2() now returns a C2 with x = 3.
+C2 is mutable (it has a setter), so changing it through any reference changes it everywhere.
+
+Why it happens
+- C1's fields are not final, and the class does not protect its mutable part.
+- Returning a reference to a mutable object exposes the internals of C1, which breaks encapsulation.

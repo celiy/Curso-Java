@@ -1,15 +1,15 @@
-package MethodKeywords;
+package PrivatePublicStatic;
 
-public class KeywordsMain {
+public class KeywordsObject {
     public static void main(String[] args) {
         // WORKS: public static method
-        KeywordsHerstal.sayHi();
+        KeywordsClass.sayHi();
 
         // DOES NOT WORK: private method is not visible outside MethodKeywords.KeywordsHerstal
         // MethodKeywords.KeywordsHerstal.sayHiPrivate();
 
         // WORKS: instance method called through an object
-        KeywordsHerstal herstal = new KeywordsHerstal();
+        KeywordsClass herstal = new KeywordsClass();
         herstal.sayHiInstance();
     }
 }
