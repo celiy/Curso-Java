@@ -1,4 +1,4 @@
-package InheritancePolymorphism;
+package InheritancePolymorphism.Example1;
 
 public class Worksite2 {
     public static void main(String[] args) {

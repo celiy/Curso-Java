@@ -1,4 +1,4 @@
-package InheritancePolymorphism;
+package InheritancePolymorphism.Example1;
 
 public class Worker {
     public void doWork() {
